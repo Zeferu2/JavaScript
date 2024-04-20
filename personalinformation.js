@@ -9,6 +9,6 @@ console.log(fullName +' '+ age +'  '+ homeTown +' '+ colors +' ' + isYouStudent 
 console.log(`Full Name: ${fullName} 
 Age: ${age} 
 Home-Town: ${homeTown}
-Favorite color: ${colors} 
+My Favorite color: ${colors} 
 Is you student: ${isYouStudent} 
 Is you active: ${isYouActive}`);
