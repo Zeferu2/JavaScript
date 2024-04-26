@@ -1,4 +1,4 @@
-let dayOfWeek = 1;
+let dayOfWeek = 8;
 let nameofDay;
 
 switch (dayOfWeek) {
@@ -23,10 +23,11 @@ switch (dayOfWeek) {
     case 7:
         nameofDay = 'Saturday';
         break;
+   
     default:
         nameofDay = 'Invalid Day';
 }
 
 console.log(
     `Day of the weak: ${nameofDay}
-    In put day of the weak: ${dayOfWeek}`);
+     In put day of the weak: ${dayOfWeek}`);
