@@ -14,9 +14,10 @@ console.log(thirdNumber);
 //3. Rest Parameter: 
 
 const fruits = ['apple', 'banana', 'orange'];
-const [firstFruit] = fruits;
+const [firstFruit,...otherfruits] = fruits;
 
 console.log(firstFruit);
+console.log(otherfruits);
 //4. destruct shape:
 const shapes = [];
 const [firstShape = 'circle'] = shapes;
