@@ -1,4 +1,4 @@
-const ul = document.getElementById('todoList');
+const ul = document.getElementById('toDoList');
 const input = document.getElementById('newTask');
 const button = document.getElementById('addTask');
 
