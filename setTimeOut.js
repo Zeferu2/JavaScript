@@ -1,8 +1,8 @@
 function delayedMessage(message, delay) {
     setTimeout(() => {
-        console.log("hello from delayed message");
+        console.log("hello students");
 
     }, 2000);
 }
 
-delayedMessage("hello from delayed message", 2000);
+delayedMessage("hello students", 2000);
